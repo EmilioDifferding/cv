@@ -1,42 +1,46 @@
+/* ALGUNOS ESTILOS BASE 
+que quiero por defecto en (casi) todo el documento */
 *{
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
 }
 body{
     margin: 0;
     background-color: #191A21;
+    font-family: 'Montserrat', sans-serif;
     color:#C8D07A;
-    height: 2000px;
 }
 h1,h2,h3,h4,h5,h6{
-    font-display: 'Fira Sans', sans-serif;
-
+    font-family: 'Fira Sans', sans-serif;
 }
 
 
 .main-container{
     width: 75%;
     margin: 0 auto;
-    /* border-radius: 5px; */
     border: 1px solid #BD93F9;
     background-color:#282A36;
-    /* box-shadow:inset 0px 0px 5px  #BD93F9; */
     overflow: hidden;
     margin-bottom: .5em;
-    box-shadow:0px 8px 5px #191A21;
 }
 
 .header{
     display: flex;
     margin-top: 1em;
-    position: relative;
 }
-.header-text{
+.header-img-container img{
+    display: block;
+    box-shadow:3px 0px 5px #191A21;
+    border-radius: 0 5% 5% 0;
+}
+.header-text-container{
     margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .nombre{
     font-size: 3.5em;
-    margin-top: 16px;
+    margin-top: .5em;
     margin-bottom: 0;
     
 }
@@ -45,17 +49,14 @@ h1,h2,h3,h4,h5,h6{
     text-align: end;
 }
 
-.img-container img{
-    display: block;
-    box-shadow:3px 0px 5px #191A21;
-    border-radius: 0 5% 5% 0;
-}
 .info{
-    position: absolute;
-    bottom: 1em;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
 .info span{
     display:inline-block;
+    padding: .3em;
+    background-color: #191A21;
     margin-right: 1em;
 }
 
@@ -63,6 +64,7 @@ h1,h2,h3,h4,h5,h6{
     position: sticky;
     top:1px;
     display: flex;
+    box-shadow:0px 8px 5px #191A21;
 }
 .menu{
     display:flex;
