@@ -50,6 +50,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .info{
+    list-style-type: none;
     font-weight: 600;
 }
 .info span{

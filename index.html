@@ -14,15 +14,16 @@
        <div class="header-img-container"><img src="imgs/cv-profile-ph2.jpg" alt="Imagen de perfil">
        </div>
        <div class="header-text-container">
+        <!-- Los elementos que componen los datos, no estan en elementos <li> por la relevancia semántica que le quiero dar -->
             <div>
                 <h1 class="nombre">Emilio Differding</h1>
                 <h3 class="puesto">WebDev Jr.</h3>
-            </div> <!-- este div es solo para mantene rjuntos a nombre y puesto, y el display:flex no lo rompa-->
-            <div class="info">
-                <p><span><i class="fas fa-phone"></i></span> (345)4223344</p>
-                <p><span><i class="far fa-envelope"></i></span> <a href="mailto:emiliodiffer@gmail.com" class="menu-link">emiliodiffer@gmail.com</a> </p>
-                <p><span><i class="fas fa-map-marked"></i></span> Calle Falsa 123 - Concordia E.R. CP.:3200</p>
-            </div>
+            </div> <!-- este div es solo para mantener juntos a nombre y puesto, y el display:flex no lo rompa-->
+            <ul class="info">
+                <li><span><i class="fas fa-phone"></i></span> (345)4223344</li>
+                <li><span><i class="far fa-envelope"></i></span> <a href="mailto:emiliodiffer@gmail.com" class="menu-link">emiliodiffer@gmail.com</a> </li>
+                <li><span><i class="fas fa-map-marked"></i></span> Calle Falsa 123 - Concordia E.R. CP.:3200</li>
+            </ul>
        </div>
    </header>
 
@@ -42,9 +43,9 @@
         </nav>
         <nav class="socials">
             <ul class="menu">
-                <li class="menu-item"><a class="menu-link" href="https://www.github.com/EmilioDifferding"><i class="fab fa-github-alt"></i></a></li>
-                <li class="menu-item"><a class="menu-link fab fa-instagram" href="https://www.instagram.com/fakeprofile/"></a></li>
-                <li class="menu-item"><a class="menu-link"href="https://t.me/ediffer"><i class="fab fa-telegram-plane"></i></a></li>
+                <li class="menu-item"><a title="Mira en lo qestoy trabajando" class="menu-link" href="https://www.github.com/EmilioDifferding"><i class="fab fa-github-alt"></i></a></li>
+                <li class="menu-item"><a title="Mira algunas fotos y conoce mas de mi" class="menu-link fab fa-instagram" href="https://www.instagram.com/fakeprofile/"></a></li>
+                <li class="menu-item"><a title="Contáctame en Telegram!" class="menu-link"href="https://t.me/ediffer"><i class="fab fa-telegram-plane"></i></a></li>
             </ul>
         </nav>
     </div> <!--Fin de NAV Barra flotante-->
